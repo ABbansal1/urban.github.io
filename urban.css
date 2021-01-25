@@ -1,0 +1,80 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("urban fashion img/background.png");
+}
+
+.brand{
+    width:15% ;
+    float: left;
+
+}
+.logo{
+    width: 100%;
+}
+.navbar{
+  
+    display: flex;
+    float: right;
+    position: relative;  
+}
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+li{
+    margin-right: 20px;
+
+}
+a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.content{
+   margin-top: 180px;
+    position: absolute;
+    margin-left: 7%;
+}
+h2{
+    color:rgba(55,55,105);
+}
+p{
+    color: grey;
+}
+button{
+    padding: 10px 7px;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    border: none;
+  
+}
+.arrow{
+    
+    clear: both;
+    position: absolute;
+    margin-left: 5%;
+}
+.arrow img{
+    width: 15%;
+   margin-left: 15%;
+   
+    margin-top: 160%;
+   
+}
+.banner{
+   margin-left: 40%;
+    float: right;
+    bottom: 0;
+    position:absolute;
+  
+  
+}
+.banner img{
+   width: 70%;
+ 
+
+}
